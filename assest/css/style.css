@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    gap: 50px;
+    /* مشان يضل الناف براس الصفحة قد ما نزلت لتحت */
+    position: fixed;
+    top: 0;
+    /* مشان القائمة تنزل سطر بس نعمل تصغير للشاشة */
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+nav ul{
+ 
+    padding: 10px;
+    gap: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("../image/pexels-photo-1181435.jpeg" );
+   
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    width: max-content;
+    height: max-content;
+    color: brown;
+    background-color: wheat;
+    text-align: center;
+    padding: 20PX;
+    border-radius: 5%;
+    
+}
+main{
+    margin: 0 auto;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#Services{
+   
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#Services h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}  
+/* هذه التعليمات من اجل وضع الاسطر اسفل بعضها تماما */
+#Services h2,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* هذه التعليمات من اجل القسم الاول حتى السطر 50 */
+.our{
+    display: flex;
+    /* حتى تجي العناصر تحت بعضا بالمنتصف */
+    justify-content: center;
+    align-items: center;
+   
+    /* حتى تبعد الاعمدة عن بعضا */
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#Specializations{
+background-color: blueviolet;
+}
+#Specializations h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#Specializations h2,P{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.spes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+/* section of teachers */
+#Teatchers{
+  
+    background-color: cyan;
+
+}
+#Teatchers h1{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#Teatchers .teach 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 15px;
+    
+}
+#Teatchers h2,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*   خاصة بالقسم التالت والرابع لوضع الصورة تحت الكتابة مباشرة */
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+#Plans h1{
+  text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* مشان السيكشن واعمدنه تجي بالمنتصف */
+.list{
+    display: flex;
+    /* حتى تجي العناصر تحت بعضا بالمنتصف */
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+    /* حتى تبعد الاعمدة عن بعضا */
+    gap: 50px;
+width: 400px;
+   
+}
+.child{
+    border: 2px solid  bisque;
+    padding: 20px;
+    background-color: bisque;
+    /* مشان يصير الولد بنص الصفحة */
+   margin-bottom: 20px;
+}
+.price{
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+ul{
+    /* مشان يبعد العنوان عن القائمة */
+    margin-top: 10px;
+}
+
+/* القسم قبل الاخير */
+#Contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30PX;
+}
+#Contact h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#Contact form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.lab{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20px;
+   
+}
+.lab p{
+    color: grey;
+}
+.subm{
+    background-color: black;
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+footer ul{
+    color: white;
+    padding: 10px;
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen  and (max-width: 728px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
