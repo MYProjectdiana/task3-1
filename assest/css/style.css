@@ -108,7 +108,7 @@ main{
 }
 
 #Specializations{
-background-color: blueviolet;
+background-color: rgb(43, 171, 226);
 }
 #Specializations h1{
     display: flex;
@@ -145,6 +145,15 @@ display: flex;
     margin-bottom: 10px;
 }
 
+
+
+#Teatchers h2,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 #Teatchers .teach 
 {
 
@@ -154,14 +163,6 @@ display: flex;
     flex-wrap: wrap;
     gap: 50px;
     padding: 15px;
-    
-}
-#Teatchers h2,p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
 }
 
 /*   خاصة بالقسم التالت والرابع لوضع الصورة تحت الكتابة مباشرة */
